@@ -7,7 +7,12 @@ var ColumnChart = function(name, d1, d2, d3, d4, cats){
       renderTo: container
     },
     title:{
-      text: name
+      text: name,
+      align: 'right',
+        style: {
+          color: 'red',
+          fontWeight: 'bold'
+            }
     },
     series: [{
       name: "Chort 7",
